@@ -1,0 +1,27 @@
+<div class="container">
+
+    <div class="card">
+        <div class="row">
+            <h1> Cadastro de Produtos</h1>
+        </div>
+
+    
+        <form [formGroup]="formProduto" (ngSubmit)="adicionarProduto()">
+            <div class="row">
+                <div class="nomeProduto col-lg">
+                    <input type="text" formControlName="nome" placeholder="Nome">
+                </div>
+                
+                <div class="valorProduto col-lg">
+                    <input type="number" formControlName="valor" placeholder="Valor">
+                </div>
+
+                <div class="botao col-lg">
+                    <button class="btn" type="submit" id="botao"> Inserir Produto </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</div>
+

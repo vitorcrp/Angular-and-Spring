@@ -1,0 +1,23 @@
+header .topo {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+}
+
+img.logo {
+    display: flex;
+    margin: 0 auto;
+}
+
+nav {
+    color: aliceblue;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar {
+    
+    border-color:black;
+}

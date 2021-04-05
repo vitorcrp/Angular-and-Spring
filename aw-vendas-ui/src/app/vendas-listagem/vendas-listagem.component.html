@@ -1,0 +1,29 @@
+<div class="container">
+
+    <div class="row">
+        <h1> Listagem de Vendas </h1>
+    </div>
+    
+    <div class="table-responsive"> 
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th class="col-header-id" scope="col">Código</th>
+                    <th scope="col">Cliente</th>
+                    <th scope="col">Data cadastro</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let venda of vendas; index as i">
+                    <th scope="row">{{ i + 1 }}</th>
+                    <td>{{ venda.cliente.nome }}</td>
+                    <td >{{ venda.cadastro | date:'dd/MM/yyyy' }}</td>
+                    <td>{{ venda.total | number:'1.2-2' }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    

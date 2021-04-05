@@ -1,0 +1,41 @@
+h1 {
+  margin: 0.5em;
+  color:aliceblue;
+}
+  
+  table {
+    max-width: 100%;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+    margin-top: 1em;
+  }
+
+  .table {
+    border-bottom: black solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: transparent;
+  }
+
+  .table th,
+  .table td {
+    border: #000 solid 1px;
+    font-size: 12px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .table thead th {
+    font-weight: normal;
+    font-size: 15px;
+    color:aliceblue;
+  }
+
+  .table tr:hover {
+    background:dimgrey;
+  }

@@ -1,0 +1,106 @@
+input{
+    margin: 0.3em;
+    width: 100%;
+}
+
+.btn-group {
+    margin: 0.3em;
+    width: 100%;
+}
+
+h1 {
+    margin: 0.5em;
+    color:aliceblue;
+}
+
+.card_body {
+    padding: 1em;
+}
+
+.painel {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.itens {
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.produtos {
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.btn {
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px -9px 3px #000;
+    width: 100%;
+    color: aliceblue;
+   }
+
+.body-painel {
+    width: 100%;
+}
+
+label{
+    color:aliceblue;
+}
+
+.card{
+    background-color: transparent;
+    padding: 2em;
+    border-color: black;
+    margin: 2em;
+    border-width: 3px;
+    box-shadow: 5px -9px 3px #000;
+    width: 90%;
+    
+}
+
+.container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+table {
+    max-width: 100%;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+    margin-top: 1em;
+}
+
+.table {
+    border-bottom: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    border: #000 solid 1px;
+    font-size: 12px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table thead th {
+    font-weight: normal;
+    font-size: 15px;
+    color:aliceblue;
+  }
+
+  .table tr:hover {
+    background:dimgrey;
+  }
+
+  .vendasFinal {
+      margin-bottom: 10px;
+  }
+
+
